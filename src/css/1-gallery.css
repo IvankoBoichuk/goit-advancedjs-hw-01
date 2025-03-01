@@ -1,0 +1,28 @@
+.gallery {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+}
+.gallery li a {
+  margin: 0;
+  display: flex;
+}
+.gallery img {
+  width: 373px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sl-overlay {
+  background: rgba(46, 47, 66);
+}
+
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-counter,
+.sl-wrapper .sl-navigation button {
+  color: #fff;
+}
